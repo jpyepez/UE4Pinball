@@ -1,4 +1,4 @@
-﻿Log file open, 02/02/18 19:32:10
+﻿Log file open, 02/04/18 23:38:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UE4Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(156109807) SRandInit(156109807).
+LogInit: Display: RandInit(-131387052) SRandInit(-131387051).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.229902
+LogStats: Stats thread started at 0.234611
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -150,6 +150,22 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -175,639 +191,611 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal  -HTTP=WinInet
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.02-06.32.11:341][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.02-06.32.11:341][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.02-06.32.11:353][  0]LogInit: Computer: TOKEYO
-[2018.02.02-06.32.11:353][  0]LogInit: User: jpyepez
-[2018.02.02-06.32.11:353][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.02.02-06.32.11:353][  0]LogInit: High frequency timer resolution =3.410076 MHz
-[2018.02.02-06.32.11:353][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.02.02-06.32.11:353][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.02-06.32.11:353][  0]LogMemory: Process Physical Memory: 271.95 MB used, 271.95 MB peak
-[2018.02.02-06.32.11:353][  0]LogMemory: Process Virtual Memory: 270.99 MB used, 270.99 MB peak
-[2018.02.02-06.32.11:353][  0]LogMemory: Physical Memory: 4016.46 MB used,  4097.91 MB free, 8114.37 MB total
-[2018.02.02-06.32.11:353][  0]LogMemory: Virtual Memory: 649.38 MB used,  4097.91 MB free, 134217728.00 MB total
-[2018.02.02-06.32.11:487][  0]LogInit: Using OS detected language (en-US).
-[2018.02.02-06.32.11:487][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.02-06.32.11:490][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.02-06.32.11:898][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.02-06.32.12:133][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.02-06.32.12:177][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.02.02-06.32.12:177][  0]LogD3D11RHI:       8085/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.02.02-06.32.12:178][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.02-06.32.12:178][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.02-06.32.12:178][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.02-06.32.12:183][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.02-06.32.12:183][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.02-06.32.12:183][  0]LogWindows: EnumDisplayDevices:
-[2018.02.02-06.32.12:183][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.02.02-06.32.12:183][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.02.02-06.32.12:183][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.02.02-06.32.12:184][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.02.02-06.32.12:184][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.02.02-06.32.12:184][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.02.02-06.32.12:184][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2018.02.02-06.32.12:184][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2018.02.02-06.32.12:184][  0]LogRHI: Texture pool is 5660 MB (70% of 8085 MB)
-[2018.02.02-06.32.12:215][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.02-06.32.12:226][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.02-06.32.12:270][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Intermediate/Shaders/WorkingDirectory/13172/).
-[2018.02.02-06.32.12:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpyepez/AppData/Local/Temp/UnrealShaderWorkingDir/EDD35EE546ABB97A62317BAEC203C0C1/'.
-[2018.02.02-06.32.12:270][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.02-06.32.13:151][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.02-06.32.13:200][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.02-06.32.13:248][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.02-06.32.13:297][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.02-06.32.13:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.02-06.32.13:394][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.02-06.32.13:442][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.02-06.32.13:491][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.02-06.32.13:533][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.02-06.32.13:580][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.02-06.32.13:627][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.02-06.32.13:674][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.02-06.32.13:722][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.02-06.32.13:769][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.02-06.32.13:864][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.02-06.32.13:864][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.02-06.32.13:911][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.02-06.32.13:947][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.02-06.32.14:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.02-06.32.14:056][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.02-06.32.14:104][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.02-06.32.14:150][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.02-06.32.14:197][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.02-06.32.14:244][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.02-06.32.14:244][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.02-06.32.14:672][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.02-06.32.14:763][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.02-06.32.14:763][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.02-06.32.14:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.02-06.32.14:763][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.02-06.32.14:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.02-06.32.14:763][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.02-06.32.14:779][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.02-06.32.14:791][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpyepez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.02-06.32.14:801][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.02-06.32.14:802][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.02-06.32.14:802][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.02-06.32.14:802][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.02-06.32.15:147][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.02-06.32.15:454][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.02-06.32.15:491][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.02-06.32.15:491][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.02-06.32.15:491][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.02-06.32.15:491][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.02-06.32.15:491][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.02-06.32.15:520][  0]LogNetVersion: UE4Pinball , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1792839765)
-[2018.02.02-06.32.15:673][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.02.02-06.32.16:163][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.069188 seconds
-[2018.02.02-06.32.16:168][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.02-06.32.16:168][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.02-06.32.16:168][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.02-06.32.16:218][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.02-06.32.18:788][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.02-06.32.18:831][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.02-06.32.19:489][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.02-06.32.19:904][  0]SourceControl: Source control is disabled
-[2018.02.02-06.32.19:904][  0]SourceControl: Source control is disabled
-[2018.02.02-06.32.19:959][  0]SourceControl: Source control is disabled
-[2018.02.02-06.32.20:011][  0]SourceControl: Source control is disabled
-[2018.02.02-06.32.20:790][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.02-06.32.21:048][  0]LogOcInput: OculusInput pre-init called
-[2018.02.02-06.32.21:318][  0]LogEngine: Initializing Engine...
-[2018.02.02-06.32.21:321][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.02-06.32.21:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.02-06.32.21:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.02-06.32.21:661][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.02-06.32.21:666][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.32.21:682][  0]LogInit: FAudioDevice initialized.
-[2018.02.02-06.32.21:762][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.02-06.32.21:780][  0]LogInit: Texture streaming: Enabled
-[2018.02.02-06.32.21:873][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.02-06.32.21:992][  0]LogInit: Transaction tracking system initialized
-[2018.02.02-06.32.22:282][  0]BlueprintLog: New page: Editor Load
-[2018.02.02-06.32.23:103][  0]LocalizationService: Localization service is disabled
-[2018.02.02-06.32.23:793][  0]LogConsoleResponse: Display: 
-[2018.02.02-06.32.23:961][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.02-06.32.23:961][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.02-06.32.23:961][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.02-06.32.24:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' took 0.01s
-[2018.02.02-06.32.25:086][  0]SourceControl: Source control is disabled
-[2018.02.02-06.32.25:086][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.02-06.32.25:086][  0]LightingResults: New page: Lighting Build
-[2018.02.02-06.32.25:125][  0]MapCheck: New page: Map Check
-[2018.02.02-06.32.25:125][  0]LightingResults: New page: Lighting Build
-[2018.02.02-06.32.25:308][  0]LogTexture: Display: Building textures: T_PopBumperTop (BGRA8, 512X513)
-[2018.02.02-06.32.25:308][  0]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
-[2018.02.02-06.32.25:447][  0]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.32.25:459][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.02-06.32.25:473][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.02-06.32.25:525][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.886ms to complete.
-[2018.02.02-06.32.25:525][  0]LogFileHelpers: Loading map 'PinballMap' took 0.440
-[2018.02.02-06.32.25:700][  0]LogCollectionManager: Loaded 0 collections in 0.002144 seconds
-[2018.02.02-06.32.25:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Collections/' took 0.01s
-[2018.02.02-06.32.25:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Developers/jpyepez/Collections/' took 0.01s
-[2018.02.02-06.32.25:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Collections/' took 0.01s
-[2018.02.02-06.32.25:811][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.02.02-06.32.25:825][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2363 classes and 519 folders.
-[2018.02.02-06.32.25:907][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.02-06.32.26:192][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.02-06.32.26:252][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.02.02-06.32.26:311][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.02-06.32.26:315][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.02-06.32.26:322][  0]LogSlate: Took 0.004489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.02-06.32.26:410][  0]LogRenderer: Reallocating scene render targets to support 1248x460 Format 10 NumSamples 1 (Frame:1).
-[2018.02.02-06.32.26:461][  0]LogSlate: Took 0.003576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.02-06.32.26:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.02.02-06.32.26:644][  0]LogLoad: (Engine Initialization) Total time: 17.61 seconds
-[2018.02.02-06.32.26:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.02-06.32.26:644][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.02-06.32.26:654][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.02-06.32.26:674][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.02-06.32.26:768][  1]LogAssetRegistry: Asset discovery search completed in 11.1168 seconds
-[2018.02.02-06.32.26:770][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.02.02-06.32.26:770][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000104 seconds (updated 0 objects)
-[2018.02.02-06.32.28:552][197]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.32.28:573][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.02-06.32.28:573][197]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:32:28 AM)
-[2018.02.02-06.32.28:574][197]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.32.28:581][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007151s)
-[2018.02.02-06.32.28:581][197]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.32.28:581][197]LogPlayLevel: PIE: World Init took: (0.000594s)
-[2018.02.02-06.32.28:582][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008031s)
-[2018.02.02-06.32.28:595][197]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.32.28:608][197]LogInit: FAudioDevice initialized.
-[2018.02.02-06.32.28:646][197]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.32.28:649][197]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.32.28
-[2018.02.02-06.32.28:649][197]LogWorld: Bringing up level for play took: 0.001656
-[2018.02.02-06.32.28:689][197]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.02.02-06.32.28:690][197]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap -0.85
-[2018.02.02-06.32.40:399][588]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.32.40:409][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.02-06.32.40:409][588]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:32:40 AM)
-[2018.02.02-06.32.40:409][588]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.32.40:415][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006476s)
-[2018.02.02-06.32.40:416][588]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.32.40:416][588]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2018.02.02-06.32.40:416][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.007398s)
-[2018.02.02-06.32.40:430][588]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.32.40:444][588]LogInit: FAudioDevice initialized.
-[2018.02.02-06.32.40:471][588]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.32.40:473][588]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.32.40
-[2018.02.02-06.32.40:473][588]LogWorld: Bringing up level for play took: 0.001557
-[2018.02.02-06.32.40:474][588]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.935
-[2018.02.02-06.32.57:958][672]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.02-06.32.58:235][672]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.02.02-06.32.58:848][672]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.02-06.32.58:919][672]LogSlate: Took 0.003803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.02-06.32.59:027][673]LogSlate: Took 0.003803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.02-06.40.23:585][ 53]LogEditorTransaction: Undo Straighten Connection(s)
-[2018.02.02-06.40.23:609][ 53]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.02-06.40.33:314][986]LogEditorTransaction: Undo Align Right
-[2018.02.02-06.41.03:950][183]LogEditorTransaction: Undo Move Node
-[2018.02.02-06.41.07:860][583]LogEditorTransaction: Undo Move Node
-[2018.02.02-06.41.12:412][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
-[2018.02.02-06.41.12:460][ 57]LogSavePackage: Save=37.57ms
-[2018.02.02-06.41.12:460][ 57]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Bumper2B8128C4485F5477FDC9B9BFB2D89F60.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
-[2018.02.02-06.41.12:466][ 57]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
-[2018.02.02-06.41.15:014][324]BlueprintLog: New page: Compile BP_Bumper
-[2018.02.02-06.41.17:427][487]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.41.17:446][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.02-06.41.17:447][487]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:41:17 AM)
-[2018.02.02-06.41.17:447][487]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.41.17:456][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008998s)
-[2018.02.02-06.41.17:456][487]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.41.17:457][487]LogPlayLevel: PIE: World Init took: (0.000697s)
-[2018.02.02-06.41.17:457][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.009963s)
-[2018.02.02-06.41.17:476][487]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.41.17:491][487]LogInit: FAudioDevice initialized.
-[2018.02.02-06.41.17:521][487]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.41.17:523][487]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.41.17
-[2018.02.02-06.41.17:523][487]LogWorld: Bringing up level for play took: 0.001555
-[2018.02.02-06.41.17:524][487]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap -0.021
-[2018.02.02-06.41.25:116][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
-[2018.02.02-06.41.25:158][258]LogSavePackage: Save=37.08ms
-[2018.02.02-06.41.25:158][258]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Bumper355EAB1C46A70FCDDE79F0961938010B.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
-[2018.02.02-06.41.25:160][258]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
-[2018.02.02-06.42.44:882][496]LogRenderer: Reallocating scene render targets to support 1248x584 Format 10 NumSamples 1 (Frame:1).
-[2018.02.02-06.42.48:132][830]LogEditorTransaction: Undo Edit Intensity
-[2018.02.02-06.42.59:034][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
-[2018.02.02-06.42.59:078][942]LogSavePackage: Save=39.12ms
-[2018.02.02-06.42.59:078][942]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_BumperA7C320DE445EACC4DA46319B8CA9F7EC.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
-[2018.02.02-06.42.59:087][942]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
-[2018.02.02-06.45.38:826][638]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.45.38:837][638]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.02-06.45.38:843][638]LogPlayLevel: [PlayLevel] Compiling BP_Bumper before play...
-[2018.02.02-06.45.39:656][638]LogPlayLevel: PlayLevel: Blueprint regeneration took 820 ms (1 blueprints)
-[2018.02.02-06.45.39:657][638]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:45:39 AM)
-[2018.02.02-06.45.39:657][638]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.45.39:663][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006592s)
-[2018.02.02-06.45.39:664][638]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.45.39:664][638]LogPlayLevel: PIE: World Init took: (0.000708s)
-[2018.02.02-06.45.39:664][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.007556s)
-[2018.02.02-06.45.39:682][638]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.45.39:697][638]LogInit: FAudioDevice initialized.
-[2018.02.02-06.45.39:727][638]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.45.39:729][638]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.45.39
-[2018.02.02-06.45.39:729][638]LogWorld: Bringing up level for play took: 0.001562
-[2018.02.02-06.45.39:730][638]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.183
-[2018.02.02-06.45.54:679][224]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.45.54:689][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.02-06.45.54:689][224]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:45:54 AM)
-[2018.02.02-06.45.54:689][224]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.45.54:696][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006997s)
-[2018.02.02-06.45.54:697][224]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.45.54:697][224]LogPlayLevel: PIE: World Init took: (0.000633s)
-[2018.02.02-06.45.54:697][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.007898s)
-[2018.02.02-06.45.54:717][224]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.45.54:730][224]LogInit: FAudioDevice initialized.
-[2018.02.02-06.45.54:759][224]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.45.54:761][224]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.45.54
-[2018.02.02-06.45.54:761][224]LogWorld: Bringing up level for play took: 0.001535
-[2018.02.02-06.45.54:762][224]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap -0.785
-[2018.02.02-06.46.35:513][406]LogEditorTransaction: Undo Create Pin Link
-[2018.02.02-06.46.36:057][450]LogEditorTransaction: Undo Straighten Connection(s)
-[2018.02.02-06.46.36:545][495]LogEditorTransaction: Undo Move Node
-[2018.02.02-06.46.37:015][538]LogEditorTransaction: Undo Create Pin Link
-[2018.02.02-06.46.37:810][621]LogEditorTransaction: Undo Create Pin Link
-[2018.02.02-06.46.38:337][671]LogEditorTransaction: Undo Create Reroute Node
-[2018.02.02-06.46.38:952][731]LogEditorTransaction: Undo Straighten Connection(s)
-[2018.02.02-06.46.39:525][786]LogEditorTransaction: Undo Move Node
-[2018.02.02-06.46.42:373][ 84]LogEditorTransaction: Redo Move Node
-[2018.02.02-06.46.43:635][214]LogEditorTransaction: Redo Straighten Connection(s)
-[2018.02.02-06.47.22:481][365]LogEditorTransaction: Undo Straighten Connection(s)
-[2018.02.02-06.48.20:021][800]LogEditorTransaction: Undo Move Nodes
-[2018.02.02-06.48.27:897][709]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.48.27:907][709]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.02-06.48.27:913][709]LogPlayLevel: [PlayLevel] Compiling BP_Bumper before play...
-[2018.02.02-06.48.28:841][709]LogPlayLevel: PlayLevel: Blueprint regeneration took 934 ms (1 blueprints)
-[2018.02.02-06.48.28:841][709]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:48:28 AM)
-[2018.02.02-06.48.28:841][709]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.48.28:849][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007551s)
-[2018.02.02-06.48.28:849][709]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.48.28:850][709]LogPlayLevel: PIE: World Init took: (0.000594s)
-[2018.02.02-06.48.28:850][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008402s)
-[2018.02.02-06.48.28:870][709]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.48.28:884][709]LogInit: FAudioDevice initialized.
-[2018.02.02-06.48.28:918][709]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.48.28:920][709]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.48.28
-[2018.02.02-06.48.28:920][709]LogWorld: Bringing up level for play took: 0.001534
-[2018.02.02-06.48.28:921][709]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 1.373
-[2018.02.02-06.49.06:119][ 14]LogEditorTransaction: Undo Move Node
-[2018.02.02-06.49.14:931][  4]LogEditorTransaction: Undo Create Pin Link
-[2018.02.02-06.49.37:772][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
-[2018.02.02-06.49.37:826][624]LogSavePackage: Save=42.06ms
-[2018.02.02-06.49.37:826][624]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Bumper899D6AC04CD2053D491E29A96A6D64D9.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
-[2018.02.02-06.49.37:829][624]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
-[2018.02.02-06.49.38:896][742]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.49.38:913][742]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.02.02-06.49.38:919][742]LogPlayLevel: [PlayLevel] Compiling BP_Bumper before play...
-[2018.02.02-06.49.39:889][742]LogPlayLevel: PlayLevel: Blueprint regeneration took 975 ms (1 blueprints)
-[2018.02.02-06.49.39:889][742]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:49:39 AM)
-[2018.02.02-06.49.39:889][742]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.49.39:896][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006602s)
-[2018.02.02-06.49.39:897][742]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.49.39:897][742]LogPlayLevel: PIE: World Init took: (0.000655s)
-[2018.02.02-06.49.39:897][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.007507s)
-[2018.02.02-06.49.39:917][742]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.49.39:930][742]LogInit: FAudioDevice initialized.
-[2018.02.02-06.49.39:958][742]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.49.39:960][742]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.49.39
-[2018.02.02-06.49.39:960][742]LogWorld: Bringing up level for play took: 0.001505
-[2018.02.02-06.49.39:961][742]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.413
-[2018.02.02-06.49.44:372][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
-[2018.02.02-06.49.44:419][224]LogSavePackage: Save=41.30ms
-[2018.02.02-06.49.44:419][224]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Bumper5BE7BA174A39E23AAE3440B6E06B348C.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
-[2018.02.02-06.49.44:420][224]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
-[2018.02.02-06.49.45:042][292]BlueprintLog: New page: Compile BP_Bumper
-[2018.02.02-06.49.46:298][313]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.02-06.49.46:316][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.02-06.49.46:316][313]PIE: New page: PIE session: PinballMap (Feb 3, 2018, 8:49:46 AM)
-[2018.02.02-06.49.46:316][313]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
-[2018.02.02-06.49.46:322][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006461s)
-[2018.02.02-06.49.46:323][313]LogAIModule: Creating AISystem for world PinballMap
-[2018.02.02-06.49.46:323][313]LogPlayLevel: PIE: World Init took: (0.000641s)
-[2018.02.02-06.49.46:323][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.007375s)
-[2018.02.02-06.49.46:344][313]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.02-06.49.46:358][313]LogInit: FAudioDevice initialized.
-[2018.02.02-06.49.46:388][313]LogLoad: Game class is 'GameModeBase'
-[2018.02.02-06.49.46:389][313]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.02-19.49.46
-[2018.02.02-06.49.46:390][313]LogWorld: Bringing up level for play took: 0.001556
-[2018.02.02-06.49.46:391][313]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.843
-[2018.02.02-06.50.20:707][210]LogSavePackage: Save=64.97ms
-[2018.02.02-06.50.20:707][210]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_Auto1659C6E944E263CA6237B7FBDA3CAEA6A.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto1.umap'
-[2018.02.02-06.50.20:709][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto1.umap
-[2018.02.02-06.50.20:710][210]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballMap' took 0.096
-[2018.02.02-06.50.20:710][210]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.096
-[2018.02.02-06.51.05:284][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.02.02-06.51.05:375][368]LogSavePackage: Save=64.52ms
-[2018.02.02-06.51.05:375][368]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap1893FA1E45E197B6A586CD9A1CE09007.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap'
-[2018.02.02-06.51.05:377][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap
-[2018.02.02-06.51.05:393][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset" SILENT=true
-[2018.02.02-06.51.05:414][368]LogSavePackage: Save=12.78ms
-[2018.02.02-06.51.05:415][368]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_BuiltData0DFF5B5B40AEAA607DAB58968B1728F6.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset'
-[2018.02.02-06.51.05:416][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset
-[2018.02.02-06.51.06:915][524]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.02-06.51.07:081][525]Cmd: QUIT_EDITOR
-[2018.02.02-06.51.07:510][525]LogExit: Preparing to exit.
-[2018.02.02-06.51.08:255][525]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' was aborted.
-[2018.02.02-06.51.08:285][525]LogExit: Editor shut down
-[2018.02.02-06.51.08:289][525]LogExit: Transaction tracking system shut down
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' was aborted.
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.02.02-06.51.08:429][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.02.02-06.51.08:496][525]LogExit: Object subsystem successfully closed.
-[2018.02.02-06.51.08:511][525]LogD3D11RHI: Shutdown
-[2018.02.02-06.51.08:511][525]LogD3D11RHI: CleanupD3DDevice
-[2018.02.02-06.51.08:513][525]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.02-06.51.08:527][525]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2018.02.02-06.51.08:527][525]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (548)
-[2018.02.02-06.51.08:527][525]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (546)
-[2018.02.02-06.51.08:527][525]LogModuleManager: Shutting down and abandoning module SceneOutliner (544)
-[2018.02.02-06.51.08:527][525]LogModuleManager: Shutting down and abandoning module AddContentDialog (542)
-[2018.02.02-06.51.08:527][525]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module WidgetCarousel (541)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module EditorWidgets (538)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module CollectionManager (536)
-[2018.02.02-06.51.08:528][525]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Collections/' was aborted.
-[2018.02.02-06.51.08:528][525]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Developers/jpyepez/Collections/' was aborted.
-[2018.02.02-06.51.08:528][525]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Collections/' was aborted.
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module StatsViewer (534)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module FoliageEdit (532)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module LandscapeEditor (530)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module MeshPaintMode (528)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (526)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module ActorPickerMode (524)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module GeometryMode (522)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module TextureAlignMode (520)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module BspMode (518)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (516)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module HardwareSurvey (514)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (512)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module AutomationWorker (510)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (508)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (506)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module PlacementMode (505)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (498)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (496)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (494)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (492)
-[2018.02.02-06.51.08:528][525]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (490)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (488)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module SessionServices (476)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (469)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module LogVisualizer (466)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module IntroTutorials (464)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (463)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (460)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (458)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
-[2018.02.02-06.51.08:529][525]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (452)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (450)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module InputBindingEditor (446)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module MergeActors (444)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module SizeMap (442)
-[2018.02.02-06.51.08:846][525]LogModuleManager: Shutting down and abandoning module TreeMap (440)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module ReferenceViewer (438)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (436)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module LocalizationService (435)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module HardwareTargeting (432)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (430)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module UndoHistory (428)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module XmlParser (426)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module Blutility (424)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (422)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (421)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (418)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module SettingsEditor (416)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module ProjectLauncher (414)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module SessionFrontend (412)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module ProfilerClient (410)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module DeviceManager (408)
-[2018.02.02-06.51.08:847][525]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (407)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module AutomationController (404)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module AutomationWindow (402)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module Layers (400)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (398)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module DetailCustomizations (396)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module PackagesDialog (394)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module Persona (392)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (391)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module AnimGraph (389)
-[2018.02.02-06.51.08:909][525]LogModuleManager: Shutting down and abandoning module Kismet (386)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module ClassViewer (384)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module Toolbox (382)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module OutputLog (376)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module GammaUI (374)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module Documentation (372)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module MovieScene (368)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
-[2018.02.02-06.51.08:916][525]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module PortalServices (360)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module AIModule (354)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module DesktopPlatform (348)
-[2018.02.02-06.51.08:917][525]LogModuleManager: Shutting down and abandoning module ProfilerService (346)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module TaskGraph (344)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module SteamVRController (342)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (340)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (338)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module OculusInput (336)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (334)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (332)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module CableComponent (330)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (328)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module AndroidPermission (326)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module ActorSequence (322)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (320)
-[2018.02.02-06.51.09:099][525]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (318)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module MediaCompositing (316)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module HTML5Networking (314)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module AlembicImporter (312)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module AlembicLibrary (311)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module GeometryCache (310)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (309)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (304)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PluginBrowser (302)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (300)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (298)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (296)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module UObjectPlugin (294)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (292)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (290)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module GitSourceControl (288)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module SourceControl (287)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (284)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (282)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (280)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module Paper2DEditor (278)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module MeshPaint (277)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module LevelEditor (275)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (274)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module MainFrame (272)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module HotReload (271)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (266)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (264)
-[2018.02.02-06.51.09:100][525]LogModuleManager: Shutting down and abandoning module PhysXVehicles (262)
-[2018.02.02-06.51.09:101][525]LogModuleManager: Shutting down and abandoning module OculusEditor (260)
-[2018.02.02-06.51.09:101][525]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (258)
-[2018.02.02-06.51.09:101][525]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (256)
-[2018.02.02-06.51.09:101][525]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (254)
-[2018.02.02-06.51.09:101][525]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
-[2018.02.02-06.51.09:202][525]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
-[2018.02.02-06.51.09:303][525]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (248)
-[2018.02.02-06.51.09:303][525]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (246)
-[2018.02.02-06.51.09:303][525]LogModuleManager: Shutting down and abandoning module FacialAnimation (244)
-[2018.02.02-06.51.09:303][525]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (242)
-[2018.02.02-06.51.09:303][525]LogModuleManager: Shutting down and abandoning module GraphEditor (241)
-[2018.02.02-06.51.09:303][525]LogModuleManager: Shutting down and abandoning module ContentBrowser (239)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (236)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module Paper2D (234)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module WmfMedia (230)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module ImgMedia (228)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module PacketHandler (226)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (224)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (222)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module MediaAssets (220)
-[2018.02.02-06.51.09:304][525]LogModuleManager: Shutting down and abandoning module Media (219)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module VREditor (212)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module StringTableEditor (210)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (208)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (206)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module FunctionalTesting (204)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (202)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (201)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module UMG (198)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module UMGEditor (197)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module Sequencer (196)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module MessageLog (193)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module SlateReflector (188)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module Slate (186)
-[2018.02.02-06.51.09:311][525]LogModuleManager: Shutting down and abandoning module EditorStyle (184)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module MRMesh (182)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (180)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (178)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module XAudio2 (176)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module Networking (174)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module Core (170)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module LevelSequence (166)
-[2018.02.02-06.51.09:314][525]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (164)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module KismetCompiler (162)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2018.02.02-06.51.09:315][525]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
-[2018.02.02-06.51.09:327][525]LogDerivedDataCache: Shutdown
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
-[2018.02.02-06.51.09:327][525]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Messaging (103)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (97)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module InputCore (62)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module Settings (60)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module PhysXCooking (58)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module SteamVR (56)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module OculusHMD (54)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module AppleARKit (50)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module AugmentedReality (49)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module XMPP (41)
-[2018.02.02-06.51.09:328][525]LogModuleManager: Shutting down and abandoning module HTTP (39)
-[2018.02.02-06.51.09:328][525]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2018.02.02-06.51.09:328][525]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD791787E-4403-FB58-2E57-ED9EF63EF9C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=3b594833464ea2447db9ab8f54bfbe9b%7C231ec0329cfc4ae29322f5907af6e17d%7C187fd38b-10f4-4a5b-a426-bcf3c7b52353&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.02-06.51.09:328][525]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD791787E-4403-FB58-2E57-ED9EF63EF9C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=3b594833464ea2447db9ab8f54bfbe9b%7C231ec0329cfc4ae29322f5907af6e17d%7C187fd38b-10f4-4a5b-a426-bcf3c7b52353&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.02-06.51.09:328][525]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
-[2018.02.02-06.51.09:854][525]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.02.02-06.51.09:855][525]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.02.02-06.51.09:855][525]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.02.02-06.51.09:855][525]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.02.02-06.51.09:855][525]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.02.02-06.51.09:855][525]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.02.02-06.51.09:855][525]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.02-06.51.09:857][525]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.02-06.51.09:862][525]LogExit: Exiting.
-[2018.02.02-06.51.09:871][525]Log file closed, 02/02/18 19:51:09
+[2018.02.04-10.38.33:591][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.04-10.38.33:591][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.04-10.38.33:610][  0]LogInit: Computer: TOKEYO
+[2018.02.04-10.38.33:611][  0]LogInit: User: jpyepez
+[2018.02.04-10.38.33:611][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.02.04-10.38.33:611][  0]LogInit: High frequency timer resolution =3.410076 MHz
+[2018.02.04-10.38.33:611][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.04-10.38.33:611][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.04-10.38.33:611][  0]LogMemory: Process Physical Memory: 274.05 MB used, 274.05 MB peak
+[2018.02.04-10.38.33:611][  0]LogMemory: Process Virtual Memory: 272.05 MB used, 272.05 MB peak
+[2018.02.04-10.38.33:611][  0]LogMemory: Physical Memory: 3262.79 MB used,  4851.59 MB free, 8114.37 MB total
+[2018.02.04-10.38.33:611][  0]LogMemory: Virtual Memory: 651.60 MB used,  4851.59 MB free, 134217728.00 MB total
+[2018.02.04-10.38.33:874][  0]LogInit: Using OS detected language (en-US).
+[2018.02.04-10.38.33:874][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.04-10.38.33:907][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.04-10.38.34:303][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.04-10.38.35:643][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.04-10.38.35:680][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.04-10.38.35:680][  0]LogD3D11RHI:       8085/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.04-10.38.35:681][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.04-10.38.35:681][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.04-10.38.35:681][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.04-10.38.35:686][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.04-10.38.35:686][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.04-10.38.35:686][  0]LogWindows: EnumDisplayDevices:
+[2018.02.04-10.38.35:686][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.04-10.38.35:686][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.04-10.38.35:686][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.04-10.38.35:686][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.04-10.38.35:687][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.02.04-10.38.35:687][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.04-10.38.35:687][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2018.02.04-10.38.35:687][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2018.02.04-10.38.35:687][  0]LogRHI: Texture pool is 5660 MB (70% of 8085 MB)
+[2018.02.04-10.38.35:718][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.04-10.38.35:732][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.04-10.38.35:777][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Intermediate/Shaders/WorkingDirectory/6936/).
+[2018.02.04-10.38.35:777][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpyepez/AppData/Local/Temp/UnrealShaderWorkingDir/30A93B4F4CA9CC20EF1733AD7CBE7E8F/'.
+[2018.02.04-10.38.35:777][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.04-10.38.37:346][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.04-10.38.37:394][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.04-10.38.37:441][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.04-10.38.37:487][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.04-10.38.37:538][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.04-10.38.37:585][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.04-10.38.37:632][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.04-10.38.37:679][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.04-10.38.37:720][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.04-10.38.37:766][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.04-10.38.37:812][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.04-10.38.37:858][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.04-10.38.37:903][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.04-10.38.37:948][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.04-10.38.38:040][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.04-10.38.38:040][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.04-10.38.38:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.04-10.38.38:126][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.04-10.38.38:213][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.04-10.38.38:238][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.04-10.38.38:285][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.04-10.38.38:331][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.04-10.38.38:376][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.04-10.38.38:424][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.04-10.38.38:424][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.04-10.38.38:875][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.04-10.38.38:967][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.04-10.38.38:967][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.04-10.38.38:967][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.04-10.38.38:967][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.04-10.38.38:967][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.04-10.38.38:967][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.04-10.38.38:988][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.04-10.38.39:001][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpyepez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.04-10.38.39:011][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.04-10.38.39:011][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.04-10.38.39:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.04-10.38.39:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.04-10.38.39:472][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.04-10.38.39:881][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.04-10.38.39:917][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.04-10.38.39:917][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.04-10.38.39:917][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.04-10.38.39:917][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.04-10.38.39:917][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.04-10.38.39:960][  0]LogNetVersion: UE4Pinball , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1792839765)
+[2018.02.04-10.38.40:246][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.02.04-10.38.41:054][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056870 seconds
+[2018.02.04-10.38.41:058][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.04-10.38.41:058][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.04-10.38.41:058][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.04-10.38.41:106][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.04-10.38.45:033][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.04-10.38.45:075][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.04-10.38.45:785][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.04-10.38.46:254][  0]SourceControl: Source control is disabled
+[2018.02.04-10.38.46:254][  0]SourceControl: Source control is disabled
+[2018.02.04-10.38.46:305][  0]SourceControl: Source control is disabled
+[2018.02.04-10.38.46:356][  0]SourceControl: Source control is disabled
+[2018.02.04-10.38.47:144][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.04-10.38.47:399][  0]LogOcInput: OculusInput pre-init called
+[2018.02.04-10.38.47:684][  0]LogEngine: Initializing Engine...
+[2018.02.04-10.38.47:686][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.04-10.38.48:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.04-10.38.48:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.04-10.38.48:141][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.04-10.38.48:146][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.38.48:164][  0]LogInit: FAudioDevice initialized.
+[2018.02.04-10.38.48:244][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.04-10.38.48:263][  0]LogInit: Texture streaming: Enabled
+[2018.02.04-10.38.48:354][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.04-10.38.48:475][  0]LogInit: Transaction tracking system initialized
+[2018.02.04-10.38.48:761][  0]BlueprintLog: New page: Editor Load
+[2018.02.04-10.38.49:568][  0]LocalizationService: Localization service is disabled
+[2018.02.04-10.38.50:253][  0]LogConsoleResponse: Display: 
+[2018.02.04-10.38.50:671][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.04-10.38.50:671][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.04-10.38.50:671][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.04-10.38.51:121][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' took 0.02s
+[2018.02.04-10.38.51:825][  0]SourceControl: Source control is disabled
+[2018.02.04-10.38.51:825][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.04-10.38.51:825][  0]LightingResults: New page: Lighting Build
+[2018.02.04-10.38.51:863][  0]MapCheck: New page: Map Check
+[2018.02.04-10.38.51:863][  0]LightingResults: New page: Lighting Build
+[2018.02.04-10.38.52:207][  0]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.04-10.38.52:222][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.04-10.38.52:237][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.04-10.38.52:287][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.145ms to complete.
+[2018.02.04-10.38.52:287][  0]LogFileHelpers: Loading map 'PinballMap' took 0.462
+[2018.02.04-10.38.52:443][  0]LogCollectionManager: Loaded 0 collections in 0.001655 seconds
+[2018.02.04-10.38.52:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Collections/' took 0.01s
+[2018.02.04-10.38.52:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Developers/jpyepez/Collections/' took 0.01s
+[2018.02.04-10.38.52:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Collections/' took 0.01s
+[2018.02.04-10.38.52:520][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.04-10.38.52:528][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2363 classes and 519 folders.
+[2018.02.04-10.38.52:588][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.04-10.38.52:825][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.04-10.38.52:866][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.04-10.38.52:924][  0]LogSlate: Took 0.003767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.04-10.38.52:931][  0]LogSlate: Took 0.003220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.04-10.38.52:936][  0]LogSlate: Took 0.003239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.04-10.38.53:032][  0]LogRenderer: Reallocating scene render targets to support 1248x460 Format 10 NumSamples 1 (Frame:1).
+[2018.02.04-10.38.53:080][  0]LogSlate: Took 0.003440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.04-10.38.53:240][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.04-10.38.53:240][  0]LogLoad: (Engine Initialization) Total time: 22.57 seconds
+[2018.02.04-10.38.53:240][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.04-10.38.53:240][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.04-10.38.53:267][  0]LogAssetRegistry: Asset discovery search completed in 13.0424 seconds
+[2018.02.04-10.38.53:269][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.04-10.38.53:269][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2018.02.04-10.38.53:271][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.04-10.38.54:262][ 87]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.04-10.39.26:858][997]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.04-10.39.26:883][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.04-10.39.26:884][997]PIE: New page: PIE session: PinballMap (Feb 5, 2018, 12:39:26 PM)
+[2018.02.04-10.39.26:884][997]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.04-10.39.26:892][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007775s)
+[2018.02.04-10.39.26:892][997]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.04-10.39.26:892][997]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2018.02.04-10.39.26:893][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008775s)
+[2018.02.04-10.39.26:906][997]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.39.26:920][997]LogInit: FAudioDevice initialized.
+[2018.02.04-10.39.26:961][997]LogLoad: Game class is 'GameModeBase'
+[2018.02.04-10.39.26:964][997]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.04-23.39.26
+[2018.02.04-10.39.26:964][997]LogWorld: Bringing up level for play took: 0.001647
+[2018.02.04-10.39.27:003][997]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.04-10.39.27:004][997]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap -0.004
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: libcurl info message cache 0 (  Trying 130.195.5.7...)
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: libcurl info message cache 1 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#0))
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: libcurl info message cache 2 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: libcurl info message cache 3 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: libcurl info message cache 4 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.39.53:271][135]LogHttp: Warning: 000001F257F44400: libcurl info message cache 5 (Closing connection 0)
+[2018.02.04-10.40.42:757][ 71]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.04-10.40.43:051][ 71]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.04-10.40.43:636][ 71]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.04-10.40.43:719][ 71]LogSlate: Took 0.003540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.04-10.40.43:840][ 72]LogSlate: Took 0.003564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#1))
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.41.53:329][942]LogHttp: Warning: 000001F284D42500: libcurl info message cache 6 (Closing connection 1)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#2))
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.43.53:423][659]LogHttp: Warning: 000001F284D41900: libcurl info message cache 6 (Closing connection 2)
+[2018.02.04-10.45.53:449][373]LogHttp: Warning: 000001F284D41600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.45.53:449][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.45.53:449][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.45.53:449][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#3))
+[2018.02.04-10.45.53:450][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.45.53:450][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.45.53:450][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.45.53:450][373]LogHttp: Warning: 000001F284D41600: libcurl info message cache 6 (Closing connection 3)
+[2018.02.04-10.47.53:534][387]LogHttp: Warning: 000001F285C14100: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#4))
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.47.53:535][387]LogHttp: Warning: 000001F285C14100: libcurl info message cache 6 (Closing connection 4)
+[2018.02.04-10.48.17:138][174]Cmd: TRANSACTION UNDO
+[2018.02.04-10.48.17:138][174]LogEditorTransaction: Undo Add Local Variable
+[2018.02.04-10.48.45:713][504]BlueprintLog: New page: Compile BP_Bumper
+[2018.02.04-10.48.50:380][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2018.02.04-10.48.50:438][933]LogSavePackage: Save=46.63ms
+[2018.02.04-10.48.50:438][933]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Bumper3D20E43941D24155C15E74AC24610F89.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2018.02.04-10.48.50:441][933]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#5))
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.49.53:563][936]LogHttp: Warning: 000001F28F805600: libcurl info message cache 6 (Closing connection 5)
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#6))
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.51.53:615][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.51.53:616][500]LogHttp: Warning: 000001F28E46D900: libcurl info message cache 6 (Closing connection 6)
+[2018.02.04-10.51.54:161][561]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper4)
+[2018.02.04-10.52.04:242][481]LogRenderer: Reallocating scene render targets to support 1248x584 Format 10 NumSamples 1 (Frame:1).
+[2018.02.04-10.52.20:409][880]LogRenderer: Reallocating scene render targets to support 1248x764 Format 10 NumSamples 1 (Frame:1).
+[2018.02.04-10.53.31:670][198]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.04-10.53.31:689][198]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.04-10.53.31:696][198]LogPlayLevel: [PlayLevel] Compiling BP_Bumper before play...
+[2018.02.04-10.53.32:512][198]LogPlayLevel: PlayLevel: Blueprint regeneration took 823 ms (1 blueprints)
+[2018.02.04-10.53.32:513][198]PIE: New page: PIE session: PinballMap (Feb 5, 2018, 12:53:32 PM)
+[2018.02.04-10.53.32:513][198]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.04-10.53.32:520][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007397s)
+[2018.02.04-10.53.32:521][198]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.04-10.53.32:521][198]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2018.02.04-10.53.32:521][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008312s)
+[2018.02.04-10.53.32:542][198]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.04-10.53.32:556][198]LogInit: FAudioDevice initialized.
+[2018.02.04-10.53.32:586][198]LogLoad: Game class is 'GameModeBase'
+[2018.02.04-10.53.32:588][198]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.04-23.53.32
+[2018.02.04-10.53.32:588][198]LogWorld: Bringing up level for play took: 0.001521
+[2018.02.04-10.53.32:589][198]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 1.582
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#7))
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.53.53:707][348]LogHttp: Warning: 000001F26ABD5D80: libcurl info message cache 6 (Closing connection 7)
+[2018.02.04-10.55.36:532][457]LogSavePackage: Save=67.70ms
+[2018.02.04-10.55.36:532][457]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_Auto17C0217FA4A860904273A39B0C5DBFB61.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto1.umap'
+[2018.02.04-10.55.36:534][457]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto1.umap
+[2018.02.04-10.55.36:536][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballMap' took 0.101
+[2018.02.04-10.55.36:536][457]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2018.02.04-10.55.36:538][457]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2018.02.04-10.55.36:548][457]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2018.02.04-10.55.36:548][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2018.02.04-10.55.36:608][457]LogSavePackage: Save=49.97ms
+[2018.02.04-10.55.36:608][457]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Bumper_Auto152D3EC4D48B97480A1D535B77FCD879D.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto1.uasset'
+[2018.02.04-10.55.36:609][457]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto1.uasset
+[2018.02.04-10.55.36:610][457]LogFileHelpers: Auto-saving content packages took 0.072
+[2018.02.04-10.55.36:676][463]Cmd: POLY SELECT ALL
+[2018.02.04-10.55.39:269][718]Cmd: POLY SELECT ALL
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#8))
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.55.53:784][171]LogHttp: Warning: 000001F21A6A4400: libcurl info message cache 6 (Closing connection 8)
+[2018.02.04-10.56.03:251][138]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.04-10.56.10:840][809]Cmd: SELECT NONE
+[2018.02.04-10.56.11:755][909]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.04-10.56.29:814][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.04-10.56.29:904][424]LogSavePackage: Save=66.24ms
+[2018.02.04-10.56.29:904][424]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMapD8C52601460F40B1014E4AABB3C6E9EA.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap'
+[2018.02.04-10.56.29:907][424]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap
+[2018.02.04-10.56.29:922][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset" SILENT=true
+[2018.02.04-10.56.29:942][424]LogSavePackage: Save=12.43ms
+[2018.02.04-10.56.29:942][424]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_BuiltData2C0864B24342CF4E032549800D561BE6.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset'
+[2018.02.04-10.56.29:944][424]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset
+[2018.02.04-10.56.35:402][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2018.02.04-10.56.35:453][741]LogSavePackage: Save=44.71ms
+[2018.02.04-10.56.35:453][741]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_BumperEFEA9B284ED5935FB1BACA9AC5F6FDD5.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2018.02.04-10.56.35:456][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Bumper.uasset
+[2018.02.04-10.56.35:657][741]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.04-10.56.35:819][742]Cmd: QUIT_EDITOR
+[2018.02.04-10.56.36:131][742]LogExit: Preparing to exit.
+[2018.02.04-10.56.36:457][742]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' was aborted.
+[2018.02.04-10.56.36:484][742]LogExit: Editor shut down
+[2018.02.04-10.56.36:492][742]LogExit: Transaction tracking system shut down
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' was aborted.
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.04-10.56.36:731][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.04-10.56.36:801][742]LogExit: Object subsystem successfully closed.
+[2018.02.04-10.56.36:826][742]LogD3D11RHI: Shutdown
+[2018.02.04-10.56.36:826][742]LogD3D11RHI: CleanupD3DDevice
+[2018.02.04-10.56.36:829][742]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.04-10.56.36:842][742]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (554)
+[2018.02.04-10.56.36:842][742]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.02.04-10.56.36:842][742]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2018.02.04-10.56.36:842][742]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.02.04-10.56.36:842][742]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.02.04-10.56.36:842][742]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.02.04-10.56.36:842][742]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.04-10.56.36:843][742]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.02.04-10.56.36:843][742]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.02.04-10.56.36:843][742]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.02.04-10.56.36:843][742]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Collections/' was aborted.
+[2018.02.04-10.56.36:843][742]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Developers/jpyepez/Collections/' was aborted.
+[2018.02.04-10.56.36:843][742]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Collections/' was aborted.
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.04-10.56.36:844][742]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.04-10.56.37:285][742]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.04-10.56.37:286][742]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.04-10.56.37:349][742]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.04-10.56.37:356][742]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.04-10.56.37:596][742]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.04-10.56.37:597][742]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.04-10.56.37:598][742]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.04-10.56.37:699][742]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.04-10.56.37:800][742]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.04-10.56.37:800][742]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.04-10.56.37:800][742]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.04-10.56.37:800][742]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.04-10.56.37:800][742]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.04-10.56.37:800][742]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.04-10.56.37:801][742]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.04-10.56.37:807][742]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.04-10.56.37:808][742]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.04-10.56.37:808][742]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.04-10.56.37:810][742]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.04-10.56.37:811][742]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.04-10.56.37:862][742]LogDerivedDataCache: Shutdown
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.04-10.56.37:862][742]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.04-10.56.37:863][742]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.04-10.56.37:863][742]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.04-10.56.37:863][742]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.04-10.56.37:863][742]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BD20026-4E70-CB94-5057-25833A88612B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=3b594833464ea2447db9ab8f54bfbe9b%7C231ec0329cfc4ae29322f5907af6e17d%7C187fd38b-10f4-4a5b-a426-bcf3c7b52353&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 0 (Hostname www-cache.ecs.vuw.ac.nz was found in DNS cache)
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#9))
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.04-10.56.37:863][742]LogHttp: Warning: 000001F248AC7A00: libcurl info message cache 6 (Closing connection 9)
+[2018.02.04-10.56.37:870][742]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.04-10.56.37:871][742]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.04-10.56.37:871][742]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.04-10.56.37:871][742]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.04-10.56.37:871][742]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.04-10.56.37:872][742]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.04-10.56.37:872][742]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.04-10.56.37:872][742]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.04-10.56.37:873][742]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.04-10.56.37:876][742]LogExit: Exiting.
+[2018.02.04-10.56.37:883][742]Log file closed, 02/04/18 23:56:37

@@ -1,0 +1,1167 @@
+﻿Log file open, 02/23/18 20:06:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UE4Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2042266729) SRandInit(-2042266729).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.231595
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.23-07.06.22:999][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.23-07.06.22:999][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.23-07.06.23:021][  0]LogInit: Computer: TOKEYO
+[2018.02.23-07.06.23:021][  0]LogInit: User: jpyepez
+[2018.02.23-07.06.23:021][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.02.23-07.06.23:021][  0]LogInit: High frequency timer resolution =3.410074 MHz
+[2018.02.23-07.06.23:022][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.23-07.06.23:022][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.23-07.06.23:022][  0]LogMemory: Process Physical Memory: 273.00 MB used, 273.00 MB peak
+[2018.02.23-07.06.23:022][  0]LogMemory: Process Virtual Memory: 272.11 MB used, 272.11 MB peak
+[2018.02.23-07.06.23:022][  0]LogMemory: Physical Memory: 2961.59 MB used,  5152.78 MB free, 8114.37 MB total
+[2018.02.23-07.06.23:022][  0]LogMemory: Virtual Memory: 651.60 MB used,  5152.78 MB free, 134217728.00 MB total
+[2018.02.23-07.06.23:281][  0]LogInit: Using OS detected language (en-US).
+[2018.02.23-07.06.23:281][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.23-07.06.23:313][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.23-07.06.23:714][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.23-07.06.25:428][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.23-07.06.25:472][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.23-07.06.25:472][  0]LogD3D11RHI:       8085/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.23-07.06.25:474][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.23-07.06.25:474][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.23-07.06.25:474][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.23-07.06.25:479][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.23-07.06.25:479][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.23-07.06.25:479][  0]LogWindows: EnumDisplayDevices:
+[2018.02.23-07.06.25:479][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.23-07.06.25:479][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.23-07.06.25:479][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.23-07.06.25:480][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.23-07.06.25:480][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.02.23-07.06.25:480][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.23-07.06.25:480][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2018.02.23-07.06.25:480][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2018.02.23-07.06.25:480][  0]LogRHI: Texture pool is 5660 MB (70% of 8085 MB)
+[2018.02.23-07.06.25:511][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.23-07.06.25:526][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.23-07.06.25:570][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Intermediate/Shaders/WorkingDirectory/2424/).
+[2018.02.23-07.06.25:570][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpyepez/AppData/Local/Temp/UnrealShaderWorkingDir/03FBAFB44708269BBA5035A8132DE20E/'.
+[2018.02.23-07.06.25:570][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.23-07.06.27:089][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.23-07.06.27:134][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.23-07.06.27:180][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.23-07.06.27:225][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.23-07.06.27:275][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.23-07.06.27:321][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.23-07.06.27:366][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.23-07.06.27:412][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.23-07.06.27:452][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.23-07.06.27:497][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.23-07.06.27:542][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.23-07.06.27:586][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.23-07.06.27:630][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.23-07.06.27:675][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.23-07.06.27:765][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.23-07.06.27:765][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.23-07.06.27:815][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.23-07.06.27:850][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.23-07.06.27:936][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.23-07.06.27:959][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.23-07.06.28:004][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.23-07.06.28:049][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.23-07.06.28:093][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.23-07.06.28:143][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.23-07.06.28:143][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.23-07.06.28:583][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.23-07.06.28:680][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.23-07.06.28:680][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.23-07.06.28:680][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.23-07.06.28:680][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.23-07.06.28:680][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.23-07.06.28:680][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.23-07.06.28:703][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.23-07.06.28:716][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpyepez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.23-07.06.28:726][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.23-07.06.28:727][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.23-07.06.28:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.23-07.06.28:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.23-07.06.29:200][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.23-07.06.29:613][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.23-07.06.29:649][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.23-07.06.29:649][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.23-07.06.29:649][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.23-07.06.29:649][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.23-07.06.29:649][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.23-07.06.29:693][  0]LogNetVersion: UE4Pinball , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1792839765)
+[2018.02.23-07.06.29:972][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.02.23-07.06.30:746][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060337 seconds
+[2018.02.23-07.06.30:750][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.23-07.06.30:751][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.23-07.06.30:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.23-07.06.30:797][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.23-07.06.34:877][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.23-07.06.34:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.23-07.06.35:616][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.23-07.06.36:071][  0]SourceControl: Source control is disabled
+[2018.02.23-07.06.36:071][  0]SourceControl: Source control is disabled
+[2018.02.23-07.06.36:121][  0]SourceControl: Source control is disabled
+[2018.02.23-07.06.36:170][  0]SourceControl: Source control is disabled
+[2018.02.23-07.06.36:943][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.23-07.06.37:190][  0]LogOcInput: OculusInput pre-init called
+[2018.02.23-07.06.37:469][  0]LogEngine: Initializing Engine...
+[2018.02.23-07.06.37:471][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.23-07.06.37:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.23-07.06.37:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.23-07.06.37:917][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.23-07.06.37:923][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-07.06.38:072][  0]LogInit: FAudioDevice initialized.
+[2018.02.23-07.06.38:155][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.23-07.06.38:170][  0]LogInit: Texture streaming: Enabled
+[2018.02.23-07.06.38:257][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.23-07.06.38:377][  0]LogInit: Transaction tracking system initialized
+[2018.02.23-07.06.38:654][  0]BlueprintLog: New page: Editor Load
+[2018.02.23-07.06.39:450][  0]LocalizationService: Localization service is disabled
+[2018.02.23-07.06.40:126][  0]LogConsoleResponse: Display: 
+[2018.02.23-07.06.40:539][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.23-07.06.40:539][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.23-07.06.40:539][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.23-07.06.40:984][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' took 0.01s
+[2018.02.23-07.06.41:675][  0]SourceControl: Source control is disabled
+[2018.02.23-07.06.41:675][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.23-07.06.41:675][  0]LightingResults: New page: Lighting Build
+[2018.02.23-07.06.41:713][  0]MapCheck: New page: Map Check
+[2018.02.23-07.06.41:713][  0]LightingResults: New page: Lighting Build
+[2018.02.23-07.06.42:230][  0]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-07.06.42:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.23-07.06.42:259][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.23-07.06.42:312][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.065ms to complete.
+[2018.02.23-07.06.42:312][  0]LogFileHelpers: Loading map 'PinballMap' took 0.637
+[2018.02.23-07.06.42:469][  0]LogCollectionManager: Loaded 0 collections in 0.001636 seconds
+[2018.02.23-07.06.42:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Collections/' took 0.01s
+[2018.02.23-07.06.42:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Developers/jpyepez/Collections/' took 0.01s
+[2018.02.23-07.06.42:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Collections/' took 0.01s
+[2018.02.23-07.06.42:545][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.23-07.06.42:553][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2363 classes and 519 folders.
+[2018.02.23-07.06.42:612][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.23-07.06.42:857][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.23-07.06.42:898][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.23-07.06.42:956][  0]LogSlate: Took 0.003835 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.23-07.06.42:964][  0]LogSlate: Took 0.003298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.23-07.06.42:970][  0]LogSlate: Took 0.003261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.23-07.06.43:065][  0]LogRenderer: Reallocating scene render targets to support 1248x460 Format 10 NumSamples 1 (Frame:1).
+[2018.02.23-07.06.43:121][  0]LogSlate: Took 0.003481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.23-07.06.43:284][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.23-07.06.43:284][  0]LogLoad: (Engine Initialization) Total time: 23.17 seconds
+[2018.02.23-07.06.43:284][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.23-07.06.43:284][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.23-07.06.43:313][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.23-07.06.43:397][  1]LogAssetRegistry: Asset discovery search completed in 13.4462 seconds
+[2018.02.23-07.06.43:398][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.23-07.06.43:398][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2018.02.23-07.06.44:313][ 88]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.23-07.07.13:324][563]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2018.02.23-07.07.13:841][620]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2018.02.23-07.07.13:939][630]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (PlungerMesh)
+[2018.02.23-07.07.15:167][770]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (PlungerMesh)
+[2018.02.23-07.07.15:257][779]LogEditorViewport: Clicking on Actor (double click): BP_Plunger_C (BP_Plunger)
+[2018.02.23-07.07.24:092][824]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.23-07.07.24:389][824]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.23-07.07.24:981][824]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.23-07.07.25:063][824]LogSlate: Took 0.003693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.23-07.07.25:160][825]LogSlate: Took 0.003593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: libcurl info message cache 0 (  Trying 130.195.5.7...)
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: libcurl info message cache 1 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#0))
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: libcurl info message cache 2 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: libcurl info message cache 3 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: libcurl info message cache 4 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.07.43:329][327]LogHttp: Warning: 000001F21073EC80: libcurl info message cache 5 (Closing connection 0)
+[2018.02.23-07.07.44:538][422]LogSlate: Took 0.004599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.02.23-07.08.23:316][679]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-07.08.35:704][641]Cmd: TRANSACTION UNDO
+[2018.02.23-07.08.35:704][641]LogEditorTransaction: Undo Move Actors
+[2018.02.23-07.08.52:125][988]Cmd: TRANSACTION UNDO
+[2018.02.23-07.08.52:125][988]LogEditorTransaction: Undo Move Actors
+[2018.02.23-07.09.15:564][869]Cmd: TRANSACTION UNDO
+[2018.02.23-07.09.15:564][869]LogEditorTransaction: Undo Move Actors
+[2018.02.23-07.09.43:419][116]LogHttp: Warning: 000001F207310D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#1))
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.09.43:420][116]LogHttp: Warning: 000001F207310D00: libcurl info message cache 6 (Closing connection 1)
+[2018.02.23-07.11.43:461][ 95]LogHttp: Warning: 000001F20BEC6C80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#2))
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.11.43:462][ 95]LogHttp: Warning: 000001F20BEC6C80: libcurl info message cache 6 (Closing connection 2)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#3))
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.13.43:578][150]LogHttp: Warning: 000001F20C52AC80: libcurl info message cache 6 (Closing connection 3)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#4))
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.15.43:670][356]LogHttp: Warning: 000001F20D372380: libcurl info message cache 6 (Closing connection 4)
+[2018.02.23-07.16.43:441][377]LogSavePackage: Save=70.98ms
+[2018.02.23-07.16.43:441][377]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_Auto1322A0EE243E113BD86CF3A87DEDC5A8D.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto1.umap'
+[2018.02.23-07.16.43:444][377]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto1.umap
+[2018.02.23-07.16.43:446][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballMap' took 0.117
+[2018.02.23-07.16.43:446][377]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.117
+[2018.02.23-07.16.43:448][377]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2018.02.23-07.16.43:460][377]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2018.02.23-07.16.43:460][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2018.02.23-07.16.43:505][377]LogSavePackage: Save=34.35ms
+[2018.02.23-07.16.43:505][377]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Plunger_Auto1CF05D851429A2E650B164C84F87374E7.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto1.uasset'
+[2018.02.23-07.16.43:507][377]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto1.uasset
+[2018.02.23-07.16.43:507][377]LogFileHelpers: Auto-saving content packages took 0.059
+[2018.02.23-07.17.43:733][497]LogHttp: Warning: 000001F20C7F6680: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#5))
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.17.43:734][497]LogHttp: Warning: 000001F20C7F6680: libcurl info message cache 6 (Closing connection 5)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#6))
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.19.43:813][726]LogHttp: Warning: 000001F20C7F5600: libcurl info message cache 6 (Closing connection 6)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#7))
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.21.43:838][944]LogHttp: Warning: 000001F20C7F5C00: libcurl info message cache 6 (Closing connection 7)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#8))
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.23.43:935][181]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 6 (Closing connection 8)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#9))
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.25.44:056][421]LogHttp: Warning: 000001F20C7F4580: libcurl info message cache 6 (Closing connection 9)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#10))
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.27.44:135][643]LogHttp: Warning: 000001F20C7F5300: libcurl info message cache 6 (Closing connection 10)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#11))
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.29.44:161][859]LogHttp: Warning: 000001F20C7F6C80: libcurl info message cache 6 (Closing connection 11)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#12))
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.31.44:182][ 71]LogHttp: Warning: 000001F20C7F6B00: libcurl info message cache 6 (Closing connection 12)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#13))
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.33.44:231][296]LogHttp: Warning: 000001F20C7F6980: libcurl info message cache 6 (Closing connection 13)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#14))
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.35.44:342][532]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 6 (Closing connection 14)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#15))
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.37.44:465][754]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 6 (Closing connection 15)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#16))
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.39.44:537][971]LogHttp: Warning: 000001F20C7F6080: libcurl info message cache 6 (Closing connection 16)
+[2018.02.23-07.41.37:928][491]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2018.02.23-07.41.38:631][563]Cmd: DELETE
+[2018.02.23-07.41.38:631][563]Cmd: ACTOR DELETE
+[2018.02.23-07.41.38:634][563]LogEditorActor: Deleted Actor: BP_Ball_C
+[2018.02.23-07.41.38:653][563]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#17))
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.41.44:572][272]LogHttp: Warning: 000001F1C7A58D00: libcurl info message cache 6 (Closing connection 17)
+[2018.02.23-07.43.22:689][700]LogSavePackage: Save=67.54ms
+[2018.02.23-07.43.22:689][700]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_Auto20FC877DE4832C626358D09B26BAB0BBC.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto2.umap'
+[2018.02.23-07.43.22:692][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto2.umap
+[2018.02.23-07.43.22:694][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballMap' took 0.110
+[2018.02.23-07.43.22:694][700]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.110
+[2018.02.23-07.43.22:695][700]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2018.02.23-07.43.22:706][700]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2018.02.23-07.43.22:706][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2018.02.23-07.43.22:753][700]LogSavePackage: Save=34.87ms
+[2018.02.23-07.43.22:753][700]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Plunger_Auto228F6BA004A8F4E70B75F858F529D17A4.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto2.uasset'
+[2018.02.23-07.43.22:755][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto2.uasset
+[2018.02.23-07.43.22:755][700]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2018.02.23-07.43.22:755][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2018.02.23-07.43.22:777][700]LogSavePackage: Save=11.65ms
+[2018.02.23-07.43.22:777][700]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballGameMode_Auto2128A2BD045502019418043A86E5B2EDB.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset'
+[2018.02.23-07.43.22:778][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset
+[2018.02.23-07.43.22:778][700]LogFileHelpers: Auto-saving content packages took 0.084
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#18))
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.43.44:680][300]LogHttp: Warning: 000001F1975BDF00: libcurl info message cache 6 (Closing connection 18)
+[2018.02.23-07.44.33:715][ 60]BlueprintLog: New page: Compile PinballGameMode
+[2018.02.23-07.45.31:837][896]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#19))
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.45.44:888][363]LogHttp: Warning: 000001F20C7F7B80: libcurl info message cache 6 (Closing connection 19)
+[2018.02.23-07.46.19:996][424]BlueprintLog: New page: Compile PinballGameMode
+[2018.02.23-07.46.43:483][ 96]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-07.46.44:819][204]BlueprintLog: New page: Compile PinballGameMode
+[2018.02.23-07.47.43:623][  5]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#20))
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.47.44:966][115]LogHttp: Warning: 000001F210C26080: libcurl info message cache 6 (Closing connection 20)
+[2018.02.23-07.49.45:058][345]LogHttp: Warning: 000001F2355A1A80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.49.45:058][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.49.45:058][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.49.45:058][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#21))
+[2018.02.23-07.49.45:059][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.49.45:059][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.49.45:059][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.49.45:059][345]LogHttp: Warning: 000001F2355A1A80: libcurl info message cache 6 (Closing connection 21)
+[2018.02.23-07.49.59:626][978]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#22))
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.51.45:086][409]LogHttp: Warning: 000001F22EAED600: libcurl info message cache 6 (Closing connection 22)
+[2018.02.23-07.52.24:835][931]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-07.53.00:959][990]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::TransformLocation' [Element not found.]
+[2018.02.23-07.53.19:345][ 72]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#23))
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.53.45:168][922]LogHttp: Warning: 000001F23554FD00: libcurl info message cache 6 (Closing connection 23)
+[2018.02.23-07.53.51:103][565]LogSavePackage: Save=68.40ms
+[2018.02.23-07.53.51:103][565]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_Auto3FF5267D64C466F0E9D27DDA217E9F17D.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto3.umap'
+[2018.02.23-07.53.51:107][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto3.umap
+[2018.02.23-07.53.51:109][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballMap' took 0.110
+[2018.02.23-07.53.51:109][565]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.110
+[2018.02.23-07.53.51:110][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2018.02.23-07.53.51:121][565]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2018.02.23-07.53.51:122][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2018.02.23-07.53.51:169][565]LogSavePackage: Save=35.67ms
+[2018.02.23-07.53.51:169][565]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Plunger_Auto3D948CCCE432F9BAFC580D38D712A969A.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto3.uasset'
+[2018.02.23-07.53.51:170][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto3.uasset
+[2018.02.23-07.53.51:171][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2018.02.23-07.53.51:171][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2018.02.23-07.53.51:199][565]LogSavePackage: Save=17.36ms
+[2018.02.23-07.53.51:199][565]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballGameMode_Auto310A77621427F6EDB881445B0131C47B3.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto3.uasset'
+[2018.02.23-07.53.51:200][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto3.uasset
+[2018.02.23-07.53.51:200][565]LogFileHelpers: Auto-saving content packages took 0.090
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#24))
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.55.45:226][579]LogHttp: Warning: 000001F23EF9F580: libcurl info message cache 6 (Closing connection 24)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#25))
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.57.45:575][320]LogHttp: Warning: 000001F24B55E980: libcurl info message cache 6 (Closing connection 25)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#26))
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-07.59.45:625][686]LogHttp: Warning: 000001F24B55F280: libcurl info message cache 6 (Closing connection 26)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#27))
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.01.45:656][ 35]LogHttp: Warning: 000001F1A9C50280: libcurl info message cache 6 (Closing connection 27)
+[2018.02.23-08.02.28:708][822]BlueprintLog: New page: Compile PinballGameMode
+[2018.02.23-08.02.29:338][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2018.02.23-08.02.29:372][866]LogSavePackage: Save=18.48ms
+[2018.02.23-08.02.29:372][866]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballGameMode6E51226D44BFC762D98A77B10B168D94.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2018.02.23-08.02.29:374][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/PinballGameMode.uasset
+[2018.02.23-08.03.02:421][567]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.23-08.03.02:456][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-08.03.02:457][567]PIE: New page: PIE session: PinballMap (Feb 24, 2018, 10:03:02 AM)
+[2018.02.23-08.03.02:457][567]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.23-08.03.02:467][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009730s)
+[2018.02.23-08.03.02:467][567]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-08.03.02:467][567]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2018.02.23-08.03.02:468][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.010858s)
+[2018.02.23-08.03.02:491][567]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-08.03.02:507][567]LogInit: FAudioDevice initialized.
+[2018.02.23-08.03.02:550][567]LogLoad: Game class is 'PinballGameMode_C'
+[2018.02.23-08.03.02:553][567]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.23-21.03.02
+[2018.02.23-08.03.02:553][567]LogWorld: Bringing up level for play took: 0.001697
+[2018.02.23-08.03.02:594][567]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.23-08.03.02:598][567]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.225
+[2018.02.23-08.03.06:930][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.23-08.03.06:944][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-08.03.06:944][ 12]PIE: New page: PIE session: PinballMap (Feb 24, 2018, 10:03:06 AM)
+[2018.02.23-08.03.06:944][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.23-08.03.06:952][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007389s)
+[2018.02.23-08.03.06:952][ 12]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-08.03.06:953][ 12]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2018.02.23-08.03.06:953][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008421s)
+[2018.02.23-08.03.06:975][ 12]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-08.03.06:988][ 12]LogInit: FAudioDevice initialized.
+[2018.02.23-08.03.07:017][ 12]LogLoad: Game class is 'PinballGameMode_C'
+[2018.02.23-08.03.07:019][ 12]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.23-21.03.07
+[2018.02.23-08.03.07:019][ 12]LogWorld: Bringing up level for play took: 0.001413
+[2018.02.23-08.03.07:020][ 12]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.647
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#28))
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.03.45:722][186]LogHttp: Warning: 000001F2089A0580: libcurl info message cache 6 (Closing connection 28)
+[2018.02.23-08.03.54:298][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2018.02.23-08.03.54:340][157]LogSavePackage: Save=28.76ms
+[2018.02.23-08.03.54:340][157]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Plunger7FB2E6724C9B63CD6DF83D987E84BB97.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2018.02.23-08.03.54:343][157]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Plunger.uasset
+[2018.02.23-08.05.29:529][727]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.23-08.05.29:544][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-08.05.29:544][727]PIE: New page: PIE session: PinballMap (Feb 24, 2018, 10:05:29 AM)
+[2018.02.23-08.05.29:544][727]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.23-08.05.29:552][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007708s)
+[2018.02.23-08.05.29:552][727]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-08.05.29:553][727]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.02.23-08.05.29:553][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008751s)
+[2018.02.23-08.05.29:575][727]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-08.05.29:589][727]LogInit: FAudioDevice initialized.
+[2018.02.23-08.05.29:619][727]LogLoad: Game class is 'PinballGameMode_C'
+[2018.02.23-08.05.29:621][727]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.23-21.05.29
+[2018.02.23-08.05.29:621][727]LogWorld: Bringing up level for play took: 0.001494
+[2018.02.23-08.05.29:622][727]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap -0.753
+[2018.02.23-08.05.37:974][621]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-08.05.39:308][726]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.23-08.05.39:326][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-08.05.39:326][726]PIE: New page: PIE session: PinballMap (Feb 24, 2018, 10:05:39 AM)
+[2018.02.23-08.05.39:326][726]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.23-08.05.39:333][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007504s)
+[2018.02.23-08.05.39:334][726]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-08.05.39:334][726]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2018.02.23-08.05.39:334][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008340s)
+[2018.02.23-08.05.39:356][726]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-08.05.39:369][726]LogInit: FAudioDevice initialized.
+[2018.02.23-08.05.39:403][726]LogLoad: Game class is 'PinballGameMode_C'
+[2018.02.23-08.05.39:404][726]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.23-21.05.39
+[2018.02.23-08.05.39:405][726]LogWorld: Bringing up level for play took: 0.001464
+[2018.02.23-08.05.39:406][726]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 1.031
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#29))
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.05.45:776][435]LogHttp: Warning: 000001F19DCE5780: libcurl info message cache 6 (Closing connection 29)
+[2018.02.23-08.05.50:263][916]BlueprintLog: New page: Compile BP_Plunger
+[2018.02.23-08.05.51:708][ 28]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.23-08.05.51:727][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-08.05.51:727][ 28]PIE: New page: PIE session: PinballMap (Feb 24, 2018, 10:05:51 AM)
+[2018.02.23-08.05.51:727][ 28]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.23-08.05.51:734][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007667s)
+[2018.02.23-08.05.51:735][ 28]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-08.05.51:735][ 28]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.02.23-08.05.51:735][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008543s)
+[2018.02.23-08.05.51:758][ 28]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-08.05.51:773][ 28]LogInit: FAudioDevice initialized.
+[2018.02.23-08.05.51:804][ 28]LogLoad: Game class is 'PinballGameMode_C'
+[2018.02.23-08.05.51:806][ 28]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.23-21.05.51
+[2018.02.23-08.05.51:806][ 28]LogWorld: Bringing up level for play took: 0.001497
+[2018.02.23-08.05.51:808][ 28]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap -0.568
+[2018.02.23-08.06.30:934][161]LogSavePackage: Save=67.08ms
+[2018.02.23-08.06.30:934][161]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_Auto45452AB0A43F811EDBB2B68A6A0165669.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto4.umap'
+[2018.02.23-08.06.30:936][161]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/PinballMap_Auto4.umap
+[2018.02.23-08.06.30:938][161]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballMap' took 0.106
+[2018.02.23-08.06.30:938][161]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2018.02.23-08.06.30:940][161]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2018.02.23-08.06.30:954][161]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2018.02.23-08.06.30:954][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2018.02.23-08.06.30:997][161]LogSavePackage: Save=35.62ms
+[2018.02.23-08.06.30:997][161]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Plunger_Auto4E40215C14C202755573C9FA123A90230.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto4.uasset'
+[2018.02.23-08.06.30:998][161]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto4.uasset
+[2018.02.23-08.06.30:999][161]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2018.02.23-08.06.30:999][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2018.02.23-08.06.31:024][161]LogSavePackage: Save=18.84ms
+[2018.02.23-08.06.31:024][161]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballGameMode_Auto47293918E4A4D4DD6671D19826476191B.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset'
+[2018.02.23-08.06.31:026][161]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset
+[2018.02.23-08.06.31:026][161]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.02.23-08.07.45:838][293]LogHttp: Warning: 000001F237BD0400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#30))
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.07.45:839][293]LogHttp: Warning: 000001F237BD0400: libcurl info message cache 6 (Closing connection 30)
+[2018.02.23-08.08.33:049][145]Cmd: TRANSACTION UNDO
+[2018.02.23-08.08.33:049][145]LogEditorTransaction: Undo Move Actors
+[2018.02.23-08.08.33:053][145]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2018.02.23-08.08.33:053][145]LogGeometryMode: Warning: Unable to resolve BoxBrush4_3 Brush in new BSP, see above
+[2018.02.23-08.08.33:053][145]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.02.23-08.08.50:326][627]LogGeometryMode: Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2018.02.23-08.08.50:326][627]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.02.23-08.09.14:513][702]LogGeometryMode: Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2018.02.23-08.09.14:513][702]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.02.23-08.09.15:889][820]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.23-08.09.19:315][100]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper2)
+[2018.02.23-08.09.26:298][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.23-08.09.26:409][740]LogSavePackage: Save=80.37ms
+[2018.02.23-08.09.26:409][740]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap87BB4D6F48BF3B9A2D877AA5877A2D97.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap'
+[2018.02.23-08.09.26:412][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap
+[2018.02.23-08.09.26:431][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset" SILENT=true
+[2018.02.23-08.09.26:455][740]LogSavePackage: Save=13.41ms
+[2018.02.23-08.09.26:456][740]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_BuiltData1CD9F64F472FBA43D10E80A466CA466F.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset'
+[2018.02.23-08.09.26:457][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#31))
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.09.46:050][296]LogHttp: Warning: 000001F22E781C00: libcurl info message cache 6 (Closing connection 31)
+[2018.02.23-08.10.00:306][593]LogRenderer: Reallocating scene render targets to support 1248x584 Format 10 NumSamples 1 (Frame:1).
+[2018.02.23-08.10.36:819][820]BlueprintLog: New page: Compile BallResetZone
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#32))
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.11.46:073][ 91]LogHttp: Warning: 000001F250F71F00: libcurl info message cache 6 (Closing connection 32)
+[2018.02.23-08.11.49:698][449]BlueprintLog: New page: Compile BallResetZone
+[2018.02.23-08.11.50:324][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BallResetZone" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BallResetZone.uasset" SILENT=true
+[2018.02.23-08.11.50:341][488]LogSavePackage: Save=14.89ms
+[2018.02.23-08.11.50:341][488]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BallResetZone31449B17459F80D2BFACB3AE078CE622.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BallResetZone.uasset'
+[2018.02.23-08.11.50:342][488]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BallResetZone.uasset
+[2018.02.23-08.12.01:643][542]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2018.02.23-08.12.01:643][542]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2018.02.23-08.12.03:329][691]Cmd: SELECT NONE
+[2018.02.23-08.12.04:335][794]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2018.02.23-08.12.56:932][990]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.23-08.12.56:949][990]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.23-08.12.56:952][990]LogPlayLevel: [PlayLevel] Compiling PinballGameMode before play...
+[2018.02.23-08.12.57:147][990]LogPlayLevel: PlayLevel: Blueprint regeneration took 198 ms (1 blueprints)
+[2018.02.23-08.12.57:147][990]PIE: New page: PIE session: PinballMap (Feb 24, 2018, 10:12:57 AM)
+[2018.02.23-08.12.57:148][990]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballMap
+[2018.02.23-08.12.57:156][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007982s)
+[2018.02.23-08.12.57:156][990]LogAIModule: Creating AISystem for world PinballMap
+[2018.02.23-08.12.57:156][990]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.02.23-08.12.57:156][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballMap.PinballMap to /Game/UEDPIE_0_PinballMap.PinballMap (0.008883s)
+[2018.02.23-08.12.57:179][990]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-08.12.57:193][990]LogInit: FAudioDevice initialized.
+[2018.02.23-08.12.57:224][990]LogLoad: Game class is 'PinballGameMode_C'
+[2018.02.23-08.12.57:226][990]LogWorld: Bringing World /Game/UEDPIE_0_PinballMap.PinballMap up for play (max tick rate 0) at 2018.02.23-21.12.57
+[2018.02.23-08.12.57:231][990]LogWorld: Bringing up level for play took: 0.006460
+[2018.02.23-08.12.57:233][990]PIE: Play in editor start time for /Game/UEDPIE_0_PinballMap 0.852
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#33))
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.13.46:296][656]LogHttp: Warning: 000001F238030D00: libcurl info message cache 6 (Closing connection 33)
+[2018.02.23-08.13.56:590][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.23-08.13.56:696][830]LogSavePackage: Save=69.29ms
+[2018.02.23-08.13.56:696][830]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMapE6FCA226417A844885B9ADA3200CC8BA.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap'
+[2018.02.23-08.13.56:699][830]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap.umap
+[2018.02.23-08.13.56:729][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset" SILENT=true
+[2018.02.23-08.13.56:746][830]LogSavePackage: Save=10.60ms
+[2018.02.23-08.13.56:746][830]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballMap_BuiltData5676552F4CD60FFCE95EF583604A1A97.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset'
+[2018.02.23-08.13.56:748][830]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/PinballMap_BuiltData.uasset
+[2018.02.23-08.13.59:673][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2018.02.23-08.13.59:716][986]LogSavePackage: Save=28.86ms
+[2018.02.23-08.13.59:716][986]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/BP_Plunger9F36D9A446D0387DFE75C2A7A517D64B.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2018.02.23-08.13.59:718][986]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/BP_Plunger.uasset
+[2018.02.23-08.13.59:721][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2018.02.23-08.13.59:753][986]LogSavePackage: Save=20.76ms
+[2018.02.23-08.13.59:753][986]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/PinballGameMode42CE5C8146249CEE2E19E5B059F14828.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2018.02.23-08.13.59:755][986]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Blueprints/PinballGameMode.uasset
+[2018.02.23-08.13.59:870][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.23-08.13.59:925][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.23-08.13.59:987][986]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.23-08.14.00:170][987]Cmd: QUIT_EDITOR
+[2018.02.23-08.14.00:875][987]LogExit: Preparing to exit.
+[2018.02.23-08.14.01:410][987]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' was aborted.
+[2018.02.23-08.14.01:475][987]LogExit: Editor shut down
+[2018.02.23-08.14.01:500][987]LogExit: Transaction tracking system shut down
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/' was aborted.
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.23-08.14.01:651][987]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.23-08.14.01:752][987]LogExit: Object subsystem successfully closed.
+[2018.02.23-08.14.01:777][987]LogD3D11RHI: Shutdown
+[2018.02.23-08.14.01:777][987]LogD3D11RHI: CleanupD3DDevice
+[2018.02.23-08.14.01:782][987]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.23-08.14.01:795][987]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.02.23-08.14.01:795][987]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.02.23-08.14.01:795][987]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.02.23-08.14.01:795][987]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.02.23-08.14.01:795][987]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.02.23-08.14.01:795][987]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.02.23-08.14.01:799][987]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Collections/' was aborted.
+[2018.02.23-08.14.01:799][987]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Content/Developers/jpyepez/Collections/' was aborted.
+[2018.02.23-08.14.01:799][987]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4Pinball/Saved/Collections/' was aborted.
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.23-08.14.01:799][987]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.23-08.14.01:800][987]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.23-08.14.02:210][987]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.23-08.14.02:211][987]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.23-08.14.02:275][987]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.23-08.14.02:282][987]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.23-08.14.02:283][987]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.23-08.14.02:283][987]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.23-08.14.02:283][987]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.23-08.14.02:283][987]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.23-08.14.02:283][987]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.23-08.14.02:283][987]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.23-08.14.02:284][987]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.23-08.14.02:348][987]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.23-08.14.02:349][987]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.23-08.14.02:350][987]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.23-08.14.02:350][987]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.23-08.14.02:350][987]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.23-08.14.02:351][987]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.23-08.14.02:452][987]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.23-08.14.02:552][987]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.23-08.14.02:552][987]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.23-08.14.02:552][987]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.23-08.14.02:552][987]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.23-08.14.02:552][987]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.23-08.14.02:552][987]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.23-08.14.02:553][987]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.23-08.14.02:559][987]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.23-08.14.02:560][987]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.23-08.14.02:560][987]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.23-08.14.02:560][987]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.23-08.14.02:560][987]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.23-08.14.02:562][987]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.23-08.14.02:568][987]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.23-08.14.02:656][987]LogDerivedDataCache: Shutdown
+[2018.02.23-08.14.02:656][987]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.23-08.14.02:656][987]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.23-08.14.02:657][987]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.23-08.14.02:658][987]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.23-08.14.02:658][987]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.23-08.14.02:658][987]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF3FCD4B8-4774-7A24-B6ED-75B3ECEA0F29%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=3b594833464ea2447db9ab8f54bfbe9b%7C231ec0329cfc4ae29322f5907af6e17d%7C187fd38b-10f4-4a5b-a426-bcf3c7b52353&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 0 (Hostname www-cache.ecs.vuw.ac.nz was found in DNS cache)
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 1 (  Trying 130.195.5.7...)
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#34))
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
+[2018.02.23-08.14.02:658][987]LogHttp: Warning: 000001F2637D9480: libcurl info message cache 6 (Closing connection 34)
+[2018.02.23-08.14.02:691][987]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.23-08.14.02:693][987]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.23-08.14.02:695][987]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.23-08.14.02:696][987]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.23-08.14.02:696][987]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.23-08.14.02:696][987]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.23-08.14.02:699][987]LogExit: Exiting.
+[2018.02.23-08.14.02:711][987]Log file closed, 02/23/18 21:14:02
